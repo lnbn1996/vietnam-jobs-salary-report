@@ -1,0 +1,5 @@
+# Tệp dữ liệu đầy đủ: không đăng lại (xem data/README.md)
+data/vietnam_jobs_2025.csv
+__pycache__/
+*.pyc
+.venv/

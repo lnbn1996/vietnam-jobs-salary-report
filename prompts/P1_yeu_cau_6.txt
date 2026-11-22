@@ -1,0 +1,30 @@
+PROMPT LƯU KÈM (Yêu cầu 6 - mini-project AI + Python sinh báo cáo khoa học từ dữ liệu)
+
+Công cụ AI: Claude (Anthropic), dùng qua Claude Code để viết và chạy mã Python.
+Các câu dưới đây trích nguyên văn từ yêu cầu của người dùng trong phiên làm việc (tiếng Việt).
+
+1) Chọn dữ liệu
+   Người dùng gửi hai liên kết Kaggle (nguyenchitinh/vietnam-jobs-dataset và
+   ladcva/vietnam-housing-dataset-hanoi) kèm câu hỏi:
+   "2 bộ data này có bộ nào phù hợp không?"
+   AI đọc trang Kaggle của hai bộ và so sánh giấy phép (Housing là CC BY-NC-SA nên không dùng cho
+   repo MIT). Người dùng chọn bộ: "Vietnam Jobs".
+
+2) Ghi nguồn và giấy phép dữ liệu
+   "cứ dùng nguồn ghi rõ ràng theo kaggle giúp tôi và ghi chú về việc trên kaggle ghi license là MIT"
+
+3) Giấy phép mã nguồn
+   "LICENSE ghi giống yc4 noshow-appointment-prediction"
+
+4) Phạm vi
+   "trên thực tế đây là bài tập cá nhân chỉ đang dùng lại bộ data tham khoả ở môn dwdm. hãy bỏ qua các vấn đề này và tập trung và giải yêu cầu 6 là được, không cần ghi chú gì thêm về vấn đề này"
+
+Đề bài (docs/bth04-sangtao-nd-so.pdf, Yêu cầu 6) mà AI được yêu cầu thực hiện:
+ - Chọn dataset thực tế (Kaggle/UCI/khảo sát).
+ - Phân tích: làm sạch (pandas, numpy), trực quan hóa (matplotlib...), thống kê hoặc mô hình đơn giản.
+ - Sinh báo cáo PDF tự động: giới thiệu, mô tả dữ liệu, kết quả, biểu đồ, kết luận và đề xuất.
+ - Dashboard (Streamlit): chọn biến, xem biểu đồ, tải báo cáo.
+ - Repo GitHub: mã nguồn, dữ liệu mẫu, báo cáo PDF, LICENSE, README.md, requirements.txt, giấy phép MIT/GPL.
+
+Kết quả AI tạo ra (người dùng chạy lại và kiểm tra): src/common.py, src/phan_tich.py,
+src/tao_bao_cao.py, src/dashboard.py, results/bao_cao.pdf, README.md, data/README.md.
